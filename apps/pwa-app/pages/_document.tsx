@@ -22,7 +22,7 @@ export default class CustomDocument extends Document<{
       <html>
         <Head>
           {this.props.styleTags}
-          <link rel={'./manifest.json'} />
+          <link rel="manifest" href='./manifest.json' />
         </Head>
         <body>
           <Main />
