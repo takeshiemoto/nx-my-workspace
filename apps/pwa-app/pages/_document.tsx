@@ -20,7 +20,10 @@ export default class CustomDocument extends Document<{
   render() {
     return (
       <html>
-        <Head>{this.props.styleTags}</Head>
+        <Head>
+          {this.props.styleTags}
+          <link rel={'./manifest.json'} />
+        </Head>
         <body>
           <Main />
           <NextScript />
