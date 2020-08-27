@@ -22,7 +22,7 @@ export default class CustomDocument extends Document<{
       <html>
         <Head>
           {this.props.styleTags}
-          <link rel={'icon'} href={'/icon-192.png'} />
+          <link rel={'icon'} href={'/public/icon-192.png'} />
         </Head>
         <body>
           <Main />
