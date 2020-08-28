@@ -22,8 +22,8 @@ export default class CustomDocument extends Document<{
       <html>
         <Head>
           {this.props.styleTags}
-          <link rel={'icon'} href={'/public/icon-192.png'} />
-          <link rel={'manifest'} href={'/public/manifest.json'} />
+          <link rel={'icon'} href={'/icon-192.png'} />
+          <link rel={'manifest'} href={'/manifest.json'} />
         </Head>
         <body>
           <Main />
