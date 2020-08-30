@@ -75,16 +75,5 @@
     "ts-node": "~7.0.0",
     "tslint": "~6.0.0",
     "typescript": "~3.9.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "{apps,libs}/**/*.{ts,json,md,scss,html}": [
-      "yarn run affected:lint  -- --uncommitted --parallel -- --fix",
-      "yarn run format:write -- --uncommitted"
-    ]
   }
 }
